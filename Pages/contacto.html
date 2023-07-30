@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Refrigeración</title>
+      <link rel="stylesheet" href="Css/style.css"/>
+      
+  </head>
+<body>
+  <!--Encabezado-->
+  <header>    
+    <img src="/Img/logorefri.png" alt="logorefri" width="50"/>
+    <h1>Centro de Formación Maracay</h1>
+  </header>
+  <!--Barra Nav-->
+    <nav>
+      <ul>
+        <li><a href="/index.html">Inicio</a></li>
+        <li><a href="./Pages/nosotros.html">Nosotros</a></li>
+        <li><a href="/Pages/cursos.html">Cursos</a></li>
+        <li><a href="/Pages/incripcion.html">Incripciones</a></li>
+      </ul>
+    </nav>
+    <!--Contenido Principal-->
+    <main>
+        <section>
+            <form action="">
+                <label for="nombre">Nombre</label><!--nombre-->
+                    <input type="text" name="nombre" id="nombre">
+
+                <label for="apellido">Apellido</label><!--apellido-->
+                    <input type="text" name="apellido" id="apellido">
+
+                <label for="telefono">Telefono</label><!--telefono-->
+                    <input type="tel" name="telefono" id="telefono">
+
+                <label for="genero">Genero</label><!--genero-->
+                <label for="genero">Masculino</label>
+                    <input type="radio" name="genero" id="masculino">
+                <label for="genero">Femenino</label>    
+                    <input type="radio" name="genero" id="femenino">
+
+                <label for="curso">Cursos</label><!--curso-->
+                    <select name="curso" id="curso">
+                        <option value="none">Selecciona una opción</option>
+                        <option value="opción 1"></option>
+                        <option value="opción 2"></option>
+                        <option value="opción 3"></option>
+                        <option value="opción 4"></option>
+                        <option value="opción 5"></option>
+                        <option value="opción 6"></option>
+                        <option value="opción 7"></option>
+                        <option value="opción 8"></option>
+                        <option value="opción 9"></option>
+                        <option value="opción 10"></option>
+                    </select>
+
+                <label for="email">E-Mail</label><!--Curso-->
+                    <input type="email" name="email" id="email">
+
+                <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Deja tu mensaje"></textarea>  
+                
+                <input type="submit">
+                <input type="reset">
+
+
+
+            </form>
+        </section>
+    </main>
+    <!--Footer-->
+    <footer>
+      <h5>&copy;2022 CENFORMAR Todos los derechos reservados.</h5>
+    </footer>
+  </body>
+</html>
